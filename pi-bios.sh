@@ -19,6 +19,7 @@ mkdir ../bios/fmtowns
 mkdir ../bios/neocd
 mkdir ../bios/mame
 mkdir ../bios/mame/samples
+mkdir ../bios/openmsx
 mkdir ../bios/scummvm/extra
 mkdir ../bios/xmil
 cd
@@ -158,6 +159,7 @@ rm ../bios/MSX2P.ROM
 rm ../bios/MSX2PEXT.ROM
 rm ../bios/nb_48gc.zip
 rm ../bios/nb_image.zip
+rm ../bios/nb_mdc824.zip
 rm ../bios/neogeo.zip
 rm ../bios/o2rom.bin
 rm ../bios/panafz1.bin
@@ -256,6 +258,8 @@ rm ../bios/np2kai/font.bmp
 rm ../bios/np2kai/FONT.ROM
 rm ../bios/np2kai/ITF.ROM
 rm ../bios/np2kai/SOUND.ROM
+rm ../bios/openmsx/px-7_pbasic.rom
+rm ../bios/openmsx/px-7_basic-bios1.rom
 rm ../bios/quasi88/N88.ROM
 rm ../bios/quasi88/N88EXT0.ROM
 rm ../bios/quasi88/N88EXT1.ROM
@@ -554,6 +558,7 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/maclc3.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/mackbd_m0110a.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/nb_image.zip" -P ../bios/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/nb_mdc824.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/egret.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/adbmodem.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/macos3.img" -P ../bios/
@@ -623,6 +628,12 @@ echo "Odyssey2: Lr-o2em"
 echo
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/o2rom.bin" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/c52.bin" -P ../bios/
+echo
+echo
+echo "OpenMSX"
+echo
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/px-7_pbasic.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/px-7_basic-bios1.rom" -P ../bios/openmsx/
 echo
 echo "PC-8800: Lr-Quasi88"
 echo

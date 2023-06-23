@@ -23,6 +23,8 @@ mkdir ../bios/fmtowns
 mkdir ../bios/neocd
 mkdir ../bios/mame
 mkdir ../bios/mame/samples
+mkdir ../bios/openmsx
+mkdir ../bios/scummvm/extra
 mkdir ../bios/xmil
 mkdir ../bios/wsh57
 cd
@@ -178,6 +180,7 @@ rm ../bios/MSX2P.ROM
 rm ../bios/MSX2PEXT.ROM
 rm ../bios/nb_48gc.zip
 rm ../bios/nb_image.zip
+rm ../bios/nb_mdc824.zip
 rm ../bios/neogeo.zip
 rm ../bios/o2rom.bin
 rm ../bios/panafz1.bin
@@ -279,6 +282,8 @@ rm ../bios/np2kai/font.bmp
 rm ../bios/np2kai/FONT.ROM
 rm ../bios/np2kai/ITF.ROM
 rm ../bios/np2kai/SOUND.ROM
+rm ../bios/openmsx/px-7_pbasic.rom
+rm ../bios/openmsx/px-7_basic-bios1.rom
 rm ../bios/quasi88/N88.ROM
 rm ../bios/quasi88/N88EXT0.ROM
 rm ../bios/quasi88/N88EXT1.ROM
@@ -468,6 +473,7 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/MSX2PEXT.ROM" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/nb_48gc.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/nb_image.zip" -P ../bios/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/nb_mdc824.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/neogeo.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/o2rom.bin" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/panafz1.bin" -P ../bios/
@@ -583,7 +589,12 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/np2kai/FONT.ROM" -P ../bios/np2kai/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/np2kai/ITF.ROM" -P ../bios/np2kai/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/np2kai/SOUND.ROM" -P ../bios/np2kai/
-
+echo
+echo "OpenMSX"
+echo
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/px-7_pbasic.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/px-7_basic-bios1.rom" -P ../bios/openmsx/
+echo
 echo "quasi88"
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/quasi88/N88EXT0.ROM" -P ../bios/quasi88/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/quasi88/N88EXT1.ROM" -P ../bios/quasi88/

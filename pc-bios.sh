@@ -290,6 +290,8 @@ rm ../bios/quasi88/N88KNJ1.ROM
 rm ../bios/wsh57/
 rm ../bios/xmil/IPLROM.X1
 rm ../bios/xmil/iplrom.x1t
+rm ../bios/scummvm/extra/MT32_PCM.ROM
+rm ../bios/scummvm/extra/MT32_CONTROL.ROM
 echo
 echo "Sistema listo para su correcta instalacion"
 echo "System ready for right installation"
@@ -581,7 +583,12 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios
 echo "xmil"
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/xmil/IPLROM.X1" -P ../bios/xmil/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/xmil/iplrom.x1t" -P ../bios/xmil/
-
+echo
+echo "ScummVM"
+echo
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/scummvm/extra/MT32_PCM.ROM" -P ../bios/scummvm/extra
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/scummvm/extra/MT32_CONTROL.ROM" -P ../bios/scummvm/extra
+echo
 echo
 
 sleep 1

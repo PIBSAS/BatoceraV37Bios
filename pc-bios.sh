@@ -284,6 +284,18 @@ rm ../bios/np2kai/ITF.ROM
 rm ../bios/np2kai/SOUND.ROM
 rm ../bios/openmsx/px-7_pbasic.rom
 rm ../bios/openmsx/px-7_basic-bios1.rom
+rm ../bios/openmsx/fs-a1gt_firmware.rom
+rm ../bios/openmsx/fs-a1gt_kanjifont.rom
+rm ../bios/openmsx/fs-a1wsx_basic-bios2p.rom
+rm ../bios/openmsx/fs-a1wsx_disk.room
+rm ../bios/openmsx/fs-a1wsx_firmware.rom
+rm ../bios/openmsx/fs-a1wsx_fmbasic.rom
+rm ../bios/openmsx/fs-a1wsx_kanjibasic.rom
+rm ../bios/openmsx/fs-a1wsx_kanjifont.rom
+rm ../bios/openmsx/fs-a1wsx_msx2psub.rom
+rm ../bios/openmsx/ide250.zip
+rm ../bios/openmsx/phc-70fd2_basickun.rom
+rm ../bios/openmsx/yrw801.rom
 rm ../bios/quasi88/N88.ROM
 rm ../bios/quasi88/N88EXT0.ROM
 rm ../bios/quasi88/N88EXT1.ROM
@@ -594,6 +606,18 @@ echo "OpenMSX"
 echo
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/px-7_pbasic.rom" -P ../bios/openmsx/
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/px-7_basic-bios1.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/fs-a1gt_firmware.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/fs-a1gt_kanjifont.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/fs-a1wsx_basic-bios2p.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/fs-a1wsx_disk.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/fs-a1wsx_firmware.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/fs-a1wsx_fmbasic.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/fs-a1wsx_kanjibasic.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/fs-a1wsx_kanjifont.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/fs-a1wsx_msx2psub.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/ide250.zip" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/phc-70fd2_basickun.rom" -P ../bios/openmsx/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/openmsx/yrw801.rom" -P ../bios/openmsx/
 echo
 echo "quasi88"
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/quasi88/N88EXT0.ROM" -P ../bios/quasi88/

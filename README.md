@@ -1,6 +1,6 @@
 <h1 align="center"> Batocera V37 Red Admiral Bios 2023</h1>
 <p align="center">
-Las Bios Correctas y necesarias para Batocera V36, sin archivos innecesarios.
+Las Bios Correctas y necesarias para Batocera V37 Red Admiral, sin archivos innecesarios.
 </p>
 <p align="center">
 The right Bios for Batocera V37 Red Admiral, without unnecessary files.

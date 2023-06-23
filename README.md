@@ -1,9 +1,9 @@
-<h1 align="center"> Batocera V36 Bios 2023</h1>
+<h1 align="center"> Batocera V37 Red Admiral Bios 2023</h1>
 <p align="center">
 Las Bios Correctas y necesarias para Batocera V36, sin archivos innecesarios.
 </p>
 <p align="center">
-The right Bios for Batocera V36, without unnecessary files.
+The right Bios for Batocera V37 Red Admiral, without unnecessary files.
 </p>
 <p align="center">
 <img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
@@ -18,7 +18,7 @@ The right Bios for Batocera V36, without unnecessary files.
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV36Bios/main/pi-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/pi-bios.sh | bash
 ```
 
 # Or Login through SSH -- O Nos conectamos por SSH:
@@ -32,7 +32,7 @@ Password: `linux`
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV36Bios/main/pi-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/pi-bios.sh | bash
 ```
 # Tutorial: Retroconsolas
 https://sites.google.com/view/raspberrypibuenosaires/retro-consolas
@@ -53,7 +53,7 @@ Password: `linux`
 Type:
 
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV36Bios/main/pc-bios.sh | bash
+curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/pc-bios.sh | bash
 ```
 # Enjoy!!! --- A disfrutar!!!
 
@@ -64,4 +64,3 @@ curl -sSL https://raw.githubusercontent.com/Luciano2018/BatoceraV36Bios/main/pc-
 <img src="https://raw.githubusercontent.com/Luciano2018/MiPiTV/master/Paypal_2014_logo.png" alt="Invite a Coffee" width="40" height="50">
 </a>
 </p>
-

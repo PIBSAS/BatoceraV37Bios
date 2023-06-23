@@ -269,7 +269,19 @@ rm ../bios/xmil/IPLROM.X1
 rm ../bios/xmil/iplrom.x1t
 rm ../bios/scummvm/extra/MT32_PCM.ROM
 rm ../bios/scummvm/extra/MT32_CONTROL.ROM
-
+rm ../bios/zcsf.sf2
+rm ../bios/zc210/zcdata.dat
+rm ../bios/zc210/sf2/custom0.sf2
+rm ../bios/zc210/sf2/custom1.sf2
+rm ../bios/zc210/sf2/custom2.sf2
+rm ../bios/zc210/sf2/custom3.sf2
+rm ../bios/zc210/sf2/custom4.sf2
+rm ../bios/zc210/sf2/custom5.sf2
+rm ../bios/zc210/sf2/custom6.sf2
+rm ../bios/zc210/sf2/custom7.sf2
+rm ../bios/zc210/sf2/custom8.sf2
+rm ../bios/zc210/sf2/custom9.sf2
+rm ../bios/zc210/sf2/default.sf2
 echo
 echo "Sistema listo para su correcta instalacion"
 echo "System ready for right installation"
@@ -738,6 +750,23 @@ echo
 echo "Atari XE Game System: MAME"
 echo
 wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/xegs.zip" -P ../bios/
+echo
+echo
+echo "Zelda Classic: ZC210"
+echo
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zcsf.sf2" -P ../bios/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/zcdata.dat" -P ../bios/zc210/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom0.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom1.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom2.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom3.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom4.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom5.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom6.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom7.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom8.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/custom9.sf2" -P ../bios/zc210/sf2/
+wget -c "https://raw.githubusercontent.com/Luciano2018/BatoceraV37Bios/main/bios/zc210/sf2/default.sf2" -P ../bios/zc210/sf2/
 echo
 sleep 1
 echo "Al fin, Copiadas todas las BIOS--Cool we finish"
